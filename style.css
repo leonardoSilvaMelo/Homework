@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(248, 196, 51);
+    position: sticky;
+}
+
+header a img{
+    height: 4rem;
+    width: auto;
+    border-radius: 15%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 1rem;
+}
+
+nav ul li a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+.home{
+    padding: 10rem;
+    height: 50vh;
+    background-image: url(https://pbs.twimg.com/media/FuaYUtDaQAAFX-n?format=jpg&name=4096x4096);
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info{
+    text-align: center;
+}
+
+.home-info img{
+    height: 15rem;
+    width: auto;
+}
+
+.home-info span p{
+    color: white;
+    font-weight: 700;
+}
+
+.home-info a{
+    color: white;
+}
+
+.home-info p{
+    font-weight: 500;
+}
+
+.home-info hr{
+    height: 0.2rem;
+    width: 30rem;
+    margin: 2rem auto;
+
+    background-color: yellow;  
+    border: none;  
+}
+
