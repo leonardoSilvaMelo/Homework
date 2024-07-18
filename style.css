@@ -18,13 +18,13 @@ header{
     background-color: rgb(248, 196, 51);
     position: fixed;
     top: 0;
-    /* right: 10%;
-    left: 10%; */
+    right: 10%;
+    left: 10%;
 
     width: 60rem;
     border-radius: 10px;
 
-    /* z-index: 1001; */
+    z-index: 1001;
 }
 
 header a img{
@@ -109,14 +109,15 @@ nav ul li a:hover{
 
     align-items: center;
 
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fee55773845205.5c179e8691f91.jpg);
+    /* background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fee55773845205.5c179e8691f91.jpg); */
+    background-image: url(https://supercell.com/images/21f696d382b894ed8a35f8718be2d872/bg_gamesocial_brawlstars.4762f735.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.about img{
+.about .sobre-personagem img{
     height: 18rem;
     width: auto;
 
@@ -132,4 +133,37 @@ nav ul li a:hover{
 .about div p{
     font-size: 1.5rem;
     color: white;
+}
+
+.instalar a img{
+    height: 3rem;
+    width: auto;
+}
+
+.instalar{
+    margin: 1rem auto;
+}
+
+
+
+
+
+
+
+.news{
+    padding: 10rem;
+    height: 50vh;
+}
+
+.news h2{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.title img{
+    height: 3rem;
+    margin-bottom: -5px;
 }
