@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/78c68c91f5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         </a>
 
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li>
                     <a href="#inicio">HOME</a>
                 </li>
@@ -30,7 +31,7 @@
                     <a href="#sobre-nos">ABOUT US</a>
                 </li>
                 <li>
-                    <a href="">NEWS</a>
+                    <a href="#noticias">NEWS</a>
                 </li>
                 <li>
                     <a href="">GALLERY</a>
@@ -43,6 +44,37 @@
 
         <p>Tel: (99) 99999-9999</p>
 
+        <!-- DIV mobile menu -->
+         <div class="mobile-menu" id="mobileMenu">
+
+            <button class="close button" id="close">
+                <i class="fa-solid fa-x"></i>
+            </button>
+
+            <ul class="nav-links-mobile">
+                <li>
+                    <a href="#inicio">HOME</a>
+                </li>
+                <li>
+                    <a href="#sobre-nos">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#noticias">NEWS</a>
+                </li>
+                <li>
+                    <a href="">GALLERY</a>
+                </li>
+                <li>
+                    <a href="">CONTACTS</a>
+                </li>
+            </ul>
+
+         </div>
+
+         <button class="hamburger" id="hamburgerButton">
+            <i class="fas fa-bars"></i>
+         </button>
+
     </header>
 
     <main>
@@ -54,7 +86,7 @@
                 <img src="https://vetores.org/d/brawl-stars.svg" alt="">
 
                 <span>
-                    <p>POR: <a href="https://supercell.com/en/" target="_blank">SUPERCELL</a> </p>
+                    <p>por <a href="https://supercell.com/en/" target="_blank">SUPERCELL</a> </p>
                 </span>
 
                 <hr>
@@ -95,7 +127,7 @@
             </div>
         </section>
 
-        <section class="news">
+        <section class="news" id="noticias">
             <div class="title">
                 <h2>Esteja por dentro das ultimas notícia no mundo do Brawl <img src="Spike-Thanks-GIF.gif" alt=""></h2>
             </div>
