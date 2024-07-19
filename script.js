@@ -2,10 +2,10 @@
 const mobileMenu = document.querySelector("#mobileMenu");
 
 //recuperando o Botão de fechamento
-const close = document.getElementById("#close");
+const close = document.getElementById("close");
 
 //recuperando o Botão de Hamburger
-const hamburgerButton = document.getElementById("#hamburgerButton");
+const hamburgerButton = document.getElementById("hamburgerButton");
 
 //Adicionando o evento de escutar o click (addEventListener) do mouse sobre o botão de hamburger
 hamburgerButton.addEventListener("click", function(){
