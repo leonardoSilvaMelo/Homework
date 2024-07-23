@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(248, 196, 51);
+    background-color: rgba(248, 196, 51, 0.938);
     position: fixed;
     top: 0;
 
@@ -61,7 +61,7 @@ nav ul li a:hover{
     right: 0;
     width: 60%;
     height: 100%;
-    background-color: rgb(248, 196, 51);
+    background-color: rgba(248, 196, 51, 0.945);
     flex-direction: column;
     align-items: center;
     font-size: 1.8rem;
@@ -72,13 +72,22 @@ nav ul li a:hover{
     flex-direction: column;
     text-align: center;
     gap: 1.2rem;
-    width: 0%;
+    width: 100%;
     padding: 0;
+    align-items: center;
 }
 
 .nav-links-mobile li {
-    border-bottom: 1px solid #787272;
-    padding-bottom: 1.2rem;
+    /* border-bottom: 1px solid #787272; */
+    padding-bottom: 1rem;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.nav-links-mobile li:hover{
+    transition: 0.9s;
+    color: white;
+    background-color: rgb(206, 88, 10);
 }
 
 .hamburger,
@@ -161,7 +170,8 @@ nav ul li a:hover{
     width: 30rem;
     margin: 2rem auto;
 
-    background-color: rgb(255, 94, 0);  
+    /* background-color: rgb(255, 94, 0);   */
+    background-color: rgba(75, 144, 247, 0.842);
     border: none;  
 }
 
@@ -232,19 +242,21 @@ nav ul li a:hover{
 
 
 .news{
-    padding: 10rem;
+    padding: 5rem 10rem 5rem 10rem;
+    /* padding: 10rem; */
     height: 100vh;
     background-color: #212529;
     color: white;
 }
 
-.news h2{
+.title h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .title{
     text-align: center;
+    margin: 1.5rem auto;
 }
 
 .title img{
@@ -259,18 +271,14 @@ nav ul li a:hover{
 }
 
 .grid div{
-    height: 17rem;
     text-align: center;
     margin: 1rem auto;
-    background-color: rgb(255, 94, 0);
-    border-radius: 1rem;
-    border: 10px red;
+    border: 1px solid black;
 }
 
 .grid div img{
-    height: 15rem;
-    width: 27rem;
-    border-radius: 1rem;
+    height: 13rem;
+    width: 23rem;
 }
 
 .grid div p{
